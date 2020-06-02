@@ -1,0 +1,17 @@
+<table class="table table-hover">
+  <tr *ngFor="let emp of employeeService.allEmployee">
+    <td>{{emp.firstName}}</td>
+    <td>{{emp.lastName}}</td>
+    <td>{{emp.designation}}</td>
+    <td>
+      <a class="btn">
+        <i class="fa fa-edit" (click)="edit(emp)"></i>
+      </a>
+    </td>
+    <td>
+      <a class="btn text-danger">
+        <i class="fa fa-trash" (click)="deleteEmployee(emp.id)"></i>
+      </a>
+    </td>
+  </tr>
+</table>

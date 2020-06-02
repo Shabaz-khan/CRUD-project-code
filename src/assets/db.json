@@ -1,0 +1,28 @@
+{
+  "Employee": [
+    {
+      "id": 2,
+      "firstName": "Rammya",
+      "lastName": "Ramu",
+      "designation": "Angular Developer",
+      "contact": 43434,
+      "address": "Delhi"
+    },
+    {
+      "firstName": "shabaz ",
+      "lastName": "khan",
+      "designation": "Ui developer",
+      "contact": "8553178426",
+      "id": 3,
+      "address": "bangalore"
+    },
+    {
+      "firstName": "arbaz ",
+      "lastName": "khan",
+      "designation": "Full Stack Devoloper/React",
+      "contact": "343848378",
+      "id": 4,
+      "address": "Bangalore"
+    }
+  ]
+}
